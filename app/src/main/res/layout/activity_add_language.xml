@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddLanguage">
+
+    <TextView
+        android:id="@+id/textViewTittle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/editTextLang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Language Name"
+        android:layout_below="@+id/textViewTittle"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextLang"
+        android:entries="@array/LangLevel" />
+
+    <Button
+        android:id="@+id/AddLangButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Language"
+        android:layout_below="@+id/spinner"/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">GmailLogin</string>
+
+    <string-array name="gameList">
+        <item>Cricket</item>
+        <item>Football</item>
+        <item>Hockey</item>
+        <item>Badminton</item>
+        <item>Swimming</item>
+    </string-array>
+
+    <string-array name="LangLevel">
+        <item>Proficient</item>
+        <item>Average</item>
+        <item>Basic</item>
+    </string-array>
+</resources>
